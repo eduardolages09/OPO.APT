@@ -1,0 +1,9 @@
+/* Proposta O · OPO.APT — Newsreader + Josefin Sans.
+   Preto e branco nos tons do prédio (ronda 2): o branco do reboco, o cinzento da sombra e o grafite das grades e dos vidros; cada apartamento num cinzento seu (quente, esverdeado do pátio, ardósia do terraço). */
+:root {
+  --nome: "Newsreader", Georgia, serif; --serif: "Newsreader", Georgia, serif; --sans: "Josefin Sans", system-ui, sans-serif;
+  --peso-titulo: 200; --peso-nome: 300;
+  --fundo: #f4f4f2; --fundo-2: #e6e6e3; --tinta: #2c2e30; --tinta-2: #6b6e71; --destaque: #4a4d50; --destaque-2: #393b3d; --destaque-claro: #aeafb0; --escuro: #25272a; --escuro-2: #33363a; --quartos: #25272a; --claro: #f4f4f2; --bloco: #cfcfce;
+  --letra: 17px; --letra-tm: calc(17px - .5px);
+}
+.hero__titulo > span + span { font-style: italic; }
